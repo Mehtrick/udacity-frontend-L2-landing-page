@@ -85,13 +85,13 @@ function buildNav() {
     const vdom = document.createDocumentFragment();
     for (let section of pageSections) {
         const navEntry = document.createElement("li");
-        navEntry.textContent = section.dataset.nav;
+        navEntry.innerHTML = `${section.dataset.nav}`;
         navEntry.classList.add(menuLinkClass);
         navEntry.id = navIdPrefix + section.id;
         navEntry.dataset.nav = section.id;
         vdom.appendChild(navEntry);
     }
-    navbar.appendChild(vdom);
+    navbar.append(vdom);
     setMarginOfMainContent();
     //after constructing the navbar, we can calculate the active section
     setActivePageSection();
