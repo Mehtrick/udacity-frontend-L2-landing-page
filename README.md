@@ -1,4 +1,5 @@
 # Landing Page Project
+
 ---
 
 ## Table of Contents
@@ -19,6 +20,7 @@ interactive one. This will require modifying the HTML and CSS files, but primari
 To get started, open `js/app.js` and start building out the app's functionality
 
 For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+
 ---
 
 ## Project summary taken from udacity
@@ -59,6 +61,8 @@ No dependencies were used in this project besides the one that came with the set
 ## Demo
 
 You can try the application [here on github pages](https://mehtrick.github.io/udacity-frontend-L2-landing-page/).
+
+---
 
 # License & Copyright
 
