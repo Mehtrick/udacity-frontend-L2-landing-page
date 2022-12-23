@@ -93,6 +93,7 @@ function buildNav() {
     }
     navbar.appendChild(vdom);
     setMarginOfMainContent();
+    //after constructing the navbar, we can calculate the active section
     setActivePageSection();
 }
 
